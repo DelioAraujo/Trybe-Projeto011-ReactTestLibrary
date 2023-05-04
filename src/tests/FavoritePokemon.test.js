@@ -2,8 +2,8 @@ import React from 'react';
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { FavoritePokemon } from '../pages';
-import renderWithRouter from '../renderWithRouter';
 import App from '../App';
+import renderWithRouter from '../renderWithRouter';
 
 test('Se é exibida na tela a mensagem No favorite pokemon found, caso a pessoa não tenha Pokémon favoritos', () => {
   renderWithRouter(<FavoritePokemon />);
